@@ -28,3 +28,5 @@ npm run build
 ## Preview
 
 ![Movie Review](images/review.png)
+
+![Movie Modal](images/avengers.png)
