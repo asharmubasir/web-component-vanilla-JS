@@ -1,0 +1,45 @@
+movie-content {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex-basis: calc(25% - 40px);
+  background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px 6px #ccc;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.box img {
+  width: 100%;
+  height: 380px;
+}
+
+.box:hover {
+	box-shadow: 3px 3px 5px 6px #f1c40f;
+  transition: 2s;
+}
+
+@media screen and (max-width: 1024px) {
+  .box {
+    flex-basis: calc(30% - 30px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    flex-basis: calc(50% - 30px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .box {
+    flex-basis: calc(100% - 30px);
+  }
+}

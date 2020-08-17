@@ -1,0 +1,96 @@
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 40px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  width: 80%;
+  overflow: auto;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.movie-image {
+  float: left;
+  width: 40%;
+}
+
+.movie-image img {
+  width: 350px;
+  height: 500px;
+}
+
+.movie-content {
+  float: right;
+  width: 60%;
+}
+
+.movie-content #genre, #release, #vote-count {
+  font-size: 13px;
+  font-style: italic;
+}
+
+.movie-content h2 {
+  font-weight: bold;
+}
+
+.movie-content #rating-movie {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.movie-content p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1024px) {
+  .modal-content {
+    text-align: center;
+    padding: 30px;
+  }
+
+  .movie-image {
+    width: 100%;
+  }
+
+  .movie-image img {
+    width: 200px;
+    height: 400px;
+  }
+
+  .movie-content {
+    width: 100%;
+  }
+}

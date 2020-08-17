@@ -1,0 +1,31 @@
+.pagination-wrapper {
+  margin: 40px;
+  text-align: center;
+}
+
+.pagination li {
+  display: inline-block;
+  list-style: none;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.pagination a {
+  display: inline-block;
+  width: 40px;
+  font-size: 30px;
+  padding: 5px;
+  transition: 0.5s;
+}
+
+.pagination a:hover {
+  background-color:red;
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.disable {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.6;
+}

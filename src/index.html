@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Movie Review</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+
+    <header>
+      <!-- Navigation -->
+      <nav-bar></nav-bar>
+    </header>
+
+    <main>
+      <h1 class="title">TOP RATED MOVIE</h1>
+      
+      <!-- List movies -->
+      <movie-content></movie-content>
+
+      <!-- Modal movie -->
+      <div id="myModal" class="modal hidden">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class="movie-image">
+            <img id="poster" src="" alt="">
+          </div>
+          <div class="movie-content">
+            <h1 id="title-movie"></h1>
+            <span id="genre"></span> <span id="release"></span>
+            <div id="rating-movie">
+              <h2>Average Ratings</h2>
+              <div id="stars-movie">
+                <i class="fa fa-star checked"></i> <span></span>
+              </div>
+              <div id="vote-count"><em></em></div>
+            </div>
+            <p id="desc-movie"></p>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer>
+      <p>Belajar Fundamental Front-End Web Development &#169; 2020, Dicoding Academy</p>
+    </footer>
+
+  </body>
+</html>
