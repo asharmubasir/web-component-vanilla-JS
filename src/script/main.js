@@ -5,7 +5,6 @@ import '@fortawesome/fontawesome-free/js/brands'
 
 import './component/movie-content.js'
 import './component/nav-bar.js'
-import './view/scroll-nav.js'
 import './view/infinite-scroll.js'
 
 import DataMovies from '../script/data/movies.js'
